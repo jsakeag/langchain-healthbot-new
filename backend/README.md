@@ -1,6 +1,6 @@
 # Custom LLM Chatbot with LangChain AND Neo4j
 
-###DISCLAIMER
+### DISCLAIMER
 - For any instances of ChromaDB in this project, we intend to replace with Neo4j and a knowledge graph as a more domain-specialized way to replace ChromaDB
 
 This project is a conversational chatbot built using OpenAI's language models, LangChain, ChromaDB for vector storage, and Flask for serving the chatbot as an API. It allows the user to embed documents into a vector database and retrieve relevant information during the chatbot conversation.
