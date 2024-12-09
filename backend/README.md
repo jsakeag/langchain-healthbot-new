@@ -139,4 +139,5 @@ Make sure to set the following environment variable for the API to work properly
 - **Flask**: Lightweight WSGI web application framework for serving the API.
 - **LangChain**: Framework for building applications with large language models.
 - **ChromaDB**: Vector database for storing and retrieving embeddings.
+- **Neo4j**: We plan to use this as a more specialized way to replace ChromaDB
 - **OpenAI API**: For generating language model outputs.
