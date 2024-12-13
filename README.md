@@ -93,3 +93,7 @@ neo4j_vector_store = Neo4jVector.from_existing_graph(
    ```
 
 - If you are experiencing CORS errors Make sure you allow your IP to access the endpoint (look at your AWS lambda scripts)
+
+## Accessing our Knowledge Graph online
+
+Here is a [link]([url](https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170)) where you can see our neo4j knowledge graph
