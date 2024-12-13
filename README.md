@@ -94,7 +94,13 @@ neo4j_vector_store = Neo4jVector.from_existing_graph(
 
 - If you are experiencing CORS errors Make sure you allow your IP to access the endpoint (look at your AWS lambda scripts)
 
-## Accessing our Knowledge Graph online
+## Accessing Our Resources
 
-Here is a [link]([url](https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170)) where you can see our neo4j knowledge graph:
+###Neo4j Knowledge Graph
+Here is a visual [link]([url](https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170)) to our neo4j knowledge graph:
+
 https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170
+
+### Web Scraper
+Here is a [link]([url](https://colab.research.google.com/drive/1ubkOjOHJJ5TnD5pk7p4rXUMvesZP2CBW) to the code we used to downlaod and scrape articles neo4j:
+https://colab.research.google.com/drive/1ubkOjOHJJ5TnD5pk7p4rXUMvesZP2CBW
