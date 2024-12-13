@@ -96,4 +96,5 @@ neo4j_vector_store = Neo4jVector.from_existing_graph(
 
 ## Accessing our Knowledge Graph online
 
-Here is a [link]([url](https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170)) where you can see our neo4j knowledge graph
+Here is a [link]([url](https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170)) where you can see our neo4j knowledge graph:
+https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170
