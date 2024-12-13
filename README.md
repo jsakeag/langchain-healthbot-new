@@ -11,8 +11,8 @@
 1. **Clone the Repository**:
    
    ```bash
-   git clone https://github.com/ilsilfverskiold/react-langchain-chatbot.git
-   cd react-langchain-chatbot
+   git clone git@github.com:jsakeag/langchain-healthbot-new.git
+   cd langchain-healthbot-new
 
 3. **Install Dependencies**:
    
@@ -22,7 +22,7 @@
 
    If needed:
    ```bash
-   pip install
+   pip install -r /path/to/requirements.txt
 
 5. **Set Up OpenAI API Key**:
 
@@ -32,7 +32,7 @@
    ```bash
    REACT_APP_OPEN_AI_API_KEY=your_openai_api_key
 
-4. **Start the Backend and Frontend Servers**:
+6. **Start the Backend and Frontend Servers**:
    
    ```bash
    cd backend
@@ -46,8 +46,8 @@
 
 ## Options
 
-1. **Q/A with our online KG**: The default way this project is run uses a knowledge graph 
-
+1. **Q/A with our online KG**: The default way option uses a neo4j knowledge graph we created ourselves.
+Notice that the `chatbot_response` import is from `chatbot_KG.py` in the `app.py` file.
 Here is a code snippet from our chatbot_KG.py file:
 
 ```python
@@ -70,7 +70,8 @@ neo4j_vector_store = Neo4jVector.from_existing_graph(
 )
 ```
 
-2. **ChatGPT Clone**: The other way to run this project is setting the `chatbot_response` method to `chatbot.py` in the `app.py` file.
+2. **ChatGPT Clone**: The other way to run this project is the ChatGPT default 4o mini model.
+  This can be selected by setting the `chatbot_response` import to `chatbot.py` in the `app.py` file.
   Here is a code snippet from our chatbot.py file:
 
    ```python
