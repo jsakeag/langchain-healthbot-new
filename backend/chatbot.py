@@ -44,7 +44,7 @@ prompt_template = ChatPromptTemplate.from_template("""
     Context: {context}
     Chat History: {chat_history}
     Human: {question}
-    AI: Please provide a relevant answer based on the context and chat history.
+    AI: Please provide a relevant answer based on the reproductive health topics and chat history.
 """)
 
 # Create the ConversationalRetrievalChain
