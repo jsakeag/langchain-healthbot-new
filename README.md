@@ -1,6 +1,6 @@
 # Langchain Reproductive Health Bot
 
-## Motivations and Goals
+## 🎯 Motivations and Goals
 ### Motivations
 - In the U.S., fewer than 50% of adolescents reported receiving education about accessing birth control or using condoms before their first sexual experience​
 - Address gaps in reproductive health education
@@ -9,21 +9,26 @@
 - Create an LLM chatbot offering tailored, reliable advice on topics like birth control, STIs, abortion, and consent
 - Chatbot compliments traditional education systems and supports informed decision-making 
 
-## Steps to Run the Project
+## 🏆 Accomplishments
 
-- *** Make sure you have Node.js v18x and npm installed, then clone the repo & install dependencies
+- **Second Place** @ [Data Science Varisty 2024](https://womeninbigdata-llm.hackerearth.com/)
+- **Access our Submission**: [HackerEarth](https://womeninbigdata-llm.hackerearth.com/challenges/hackathon/llm-hackathon-2/dashboard/de1abe9/submission/)
+
+## 🚀 Steps to Run the Project
+
+- Make sure you have Node.js v18x and npm installed, then clone the repo & install dependencies
   
    ```bash
    git clone git@github.com:jsakeag/langchain-healthbot-new.git
    cd langchain-healthbot-new
    npm install
 
-- *** Create a .env file and setup OpenAI API Key 
+- Create a .env file and setup OpenAI API Key 
 
    ```bash
    REACT_APP_OPEN_AI_API_KEY=your_openai_api_key
 
-- *** Start the Backend and Frontend Servers**:
+- Start the Backend and Frontend Servers**:
    
    ```bash
    cd backend
@@ -35,7 +40,7 @@
    npm start
    ```
 
-## Q/A with our Neo4j Knowledge Graph
+## 💡 Q/A with our Neo4j Knowledge Graph
 
 Notice that the `chatbot_response` import is from `chatbot_KG.py` in the `app.py` file.
 Here is a code snippet from our chatbot_KG.py file:
@@ -62,7 +67,7 @@ neo4j_vector_store = Neo4jVector.from_existing_graph(
 
 - If you are experiencing CORS errors Make sure you allow your IP to access the endpoint
 
-## Accessing Our Resources
+## 🛠️ Accessing Our Resources
 
 ### Neo4j Knowledge Graph
 Here is a visual [link]([url](https://workspace-preview.neo4j.io/workspace/query?ntid=google-oauth2%7C114513607131593483170)) to our neo4j knowledge graph:
