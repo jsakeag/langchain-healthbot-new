@@ -42,8 +42,8 @@
 
 ## 💡 Q/A with our Neo4j Knowledge Graph
 
-Notice that the `chatbot_response` import is from `chatbot_KG.py` in the `app.py` file.
-Here is a code snippet from our chatbot_KG.py file:
+- Make sure `chatbot_response` import is `chatbot_KG.py` in the `app.py` file if you want to access our knowledge graph.
+- Here is a code snippet showing how we initialized our knowledge graph and vector store:
 
 ```python
 kg = Neo4jGraph(
@@ -65,7 +65,7 @@ neo4j_vector_store = Neo4jVector.from_existing_graph(
 )
 ```
 
-- If you are experiencing CORS errors Make sure you allow your IP to access the endpoint
+- Make sure you allow your IP to access the endpoint so that you don't experience CORS errors
 
 ## 🛠️ Accessing Our Resources
 
